@@ -1,8 +1,8 @@
 ---
-- host: all
+- hosts: all
   become: yes
    tasks:
-   - name: i want to install git on ubuntu node
+   - name: install git on ubuntu node
      apt:
      name: git
      state: present
