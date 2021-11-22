@@ -1,7 +1,7 @@
 ---
  - hosts: all
-  become: yes
-  tasks:
+   become: yes
+   tasks:
     - name: install git on ubuntu nodes
       apt:
       name: git
